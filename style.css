@@ -56,6 +56,14 @@ body{
 right:-18px;
 
 }
+#spooky #body #eyes{
+    display: flex;
+    justify-content:space-between;
+    margin:0 auto;
+    padding: 90px 0 0;
+    width:90px;
+    height:20px;
+}
 
 #spooky #body #eyes:before,
 #spooku #body #eyes:after {
