@@ -66,11 +66,20 @@ right:-18px;
 }
 
 #spooky #body #eyes:before,
-#spooku #body #eyes:after {
+#spooky #body #eyes:after {
     content:'';
     display:block;
     width:30px;
     height:30px;
     background: #252c49;
     border-radius: radius 50%;
+}
+
+#spooky #body #mouth:before {
+    content:'';
+    display:block;
+    background:#fff;
+    margin-left:20px;
+    width:10px;
+    height:10px;
 }
