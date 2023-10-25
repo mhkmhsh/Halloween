@@ -72,7 +72,15 @@ right:-18px;
     width:30px;
     height:30px;
     background: #252c49;
-    border-radius: radius 50%;
+    border-radius: 50%;
+}
+#spooky #body #mouth {
+    background:#252c49;
+    margin:25px auto 0;
+    width:60px;
+    height:30px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
 }
 
 #spooky #body #mouth:before {
@@ -83,3 +91,12 @@ right:-18px;
     width:10px;
     height:10px;
 }
+
+#spooky #body #feet > *,
+#spooky #body #feet::before,
+#spooky #body #feet::after {
+    content: ' ';
+    width: 36px;
+    height: 36px;
+    background: #f2fbf1;
+    border-radius: 50%;
