@@ -91,6 +91,14 @@ right:-18px;
     width:10px;
     height:10px;
 }
+#spooky #body #feet {
+    position: absolute;
+    display: flex;
+    bottom: -18px;
+    width: 180px;
+    height: 36px;
+}
+
 
 #spooky #body #feet > *,
 #spooky #body #feet::before,
@@ -100,3 +108,12 @@ right:-18px;
     height: 36px;
     background: #f2fbf1;
     border-radius: 50%;
+
+    #shadow {
+     margin:-90px auto 0;
+     background: #252c49;
+     width:180px;
+     height:40px;
+     border-radius:50%;
+     animation: zoomy 2s infinite;
+    }
