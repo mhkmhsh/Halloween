@@ -6,7 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 0;
-    background:#424f6f;
+    background:#c9d8ff;
 }
 
 #container{
@@ -14,7 +14,7 @@ body{
     height:400px;
     padding:0;
     box-sizing:border-box;
-    background:#424f6f;
+    background:#dfdfdf;
 }
 
 *:after,
@@ -111,7 +111,7 @@ right:-18px;
 }
 #shadow{
     margin:-90px auto 0;
-    background: #252c49;
+    background: #810000;
     width:180px;
     height:40px;
     border-radius:50%;
@@ -139,3 +139,43 @@ right:-18px;
             transform:scale(0.8)
         }
     }
+
+    #spooky #body #feet{
+
+        background-color:#000000;
+        transition:4s;
+      
+        position:relative;
+        animation:example1;
+        animation-duration:7s;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+      
+        
+      }
+      body.number1{
+
+        background: #ffffff;
+       
+       
+     }
+     @keyframes example1{
+       0%{
+        
+         background: black;
+     
+       }
+       50%{
+         background:red;
+     
+        
+       }
+       75%{
+         background:#db5405;
+      
+        
+       }
+       100%{
+         background:#f0ede3;
+       }
+     }
